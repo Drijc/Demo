@@ -69,3 +69,15 @@ class Child(Parent):
 Child()
 
 
+class Parent():
+
+    def show(self):
+        print("Inside Parent")
+
+
+class Child(Parent):
+    pass
+
+# This also works  
+
+Child().show()
