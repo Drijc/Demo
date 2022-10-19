@@ -103,3 +103,6 @@ rolf = WorkingStudent("Rolf", "MIT", 15.50)
 rolf.marks.append(57)
  
 print(rolf.average)
+
+
+# __str__ we can also use string which returns string which is more suitable for user to read and not each and every detail of the object.
