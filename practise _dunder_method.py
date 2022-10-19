@@ -1,17 +1,21 @@
 # from unicodedata import name
 
 
-# class garage:
-#     # dunder methods in python 
-#     def __init__(self,name) -> None:
-#         self.name=name
+class garage:
+    # dunder methods in python 
+    def __init__(self,name) -> None:
+        self.name=name
 
-# # this is also example of dunder methods in python 
-#     def __len__(self):
-#         return len(self.name)
+# this is also example of dunder methods in python 
+    def __len__(self):
+        return len(self.name)
 
-# G=garage("drij")
-# print(len(G))
+
+# This is the following __len__ dunder method and is called as an built in function for exmaple len()
+# And it is not called as my_object.__len__   
+
+G=garage("drij")
+print(len(G))
 
 
 # inheritance exmaple
